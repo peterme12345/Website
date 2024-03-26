@@ -155,7 +155,7 @@ section {
   display: flex;
 }
 
-/*Profile setion */
+/* Profile section */
 
 #profile {
   display: flex;
@@ -254,7 +254,7 @@ section {
   gap: 1rem;
 }
 
-/* about section */
+/* About section */
 
 #about {
   position: relative;
@@ -279,7 +279,7 @@ section {
 .about-pic {
   border-radius: 2rem;
   height: 400px;
-  width: 400px;
+  width: 300px;
 }
 
 .arrow {
@@ -309,7 +309,7 @@ section {
   margin: auto 0;
 }
 
-/*experience*/
+/* Experience section */
 
 #experience {
   position: relative;
@@ -347,7 +347,7 @@ article .icon {
   cursor: default;
 }
 
-/*projects*/
+/* Projects section */
 
 #projects {
   position: relative;
@@ -355,7 +355,7 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  background: wheat;
 }
 
 .project-img {
@@ -373,7 +373,7 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
-/*contact*/
+/* Contact */
 
 #contact {
   display: flex;
@@ -412,7 +412,7 @@ article .icon {
   height: 2.5rem;
 }
 
-/* FOOTER SECTION */
+/* Footer */
 
 footer {
   height: 26vh;
