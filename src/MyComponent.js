@@ -138,10 +138,7 @@ function MyComponent() {
             </div>
             <div className="text-container">
               <p>
-                I'm a recent computer scientist graduate looking to develop my
-                skills as a software engineer. I have a passion for game
-                development and finding solutions to improve the quality of life
-                of customers.
+                I'm learning to code
               </p>
             </div>
           </div>
@@ -165,21 +162,21 @@ function MyComponent() {
                   <img src={check} alt="Experience icon" className="icon" />
                   <div>
                     <h3>Javascript</h3>
-                    <p>Experienced</p>
+                    <p>Basic</p>
                   </div>
                 </article>
                 <article>
                   <img src={check} alt="Experience icon" className="icon" />
                   <div>
                     <h3>HTML</h3>
-                    <p>Intermediate</p>
+                    <p>Basic</p>
                   </div>
                 </article>
                 <article>
                   <img src={check} alt="Experience icon" className="icon" />
                   <div>
                     <h3>ReactJs</h3>
-                    <p>Intermediate</p>
+                    <p>Basic</p>
                   </div>
                 </article>
                 <article>
@@ -205,21 +202,21 @@ function MyComponent() {
                   <img src={check} alt="Experience icon" className="icon" />
                   <div>
                     <h3>NodeJs</h3>
-                    <p>Intermediate</p>
+                    <p>Basic</p>
                   </div>
                 </article>
                 <article>
                   <img src={check} alt="Experience icon" className="icon" />
                   <div>
                     <h3>C++</h3>
-                    <p>Intermediate</p>
+                    <p>Basic</p>
                   </div>
                 </article>
                 <article>
                   <img src={check} alt="Experience icon" className="icon" />
                   <div>
                     <h3>ExpressJs</h3>
-                    <p>Intermediate</p>
+                    <p>Basic</p>
                   </div>
                 </article>
                 <article>
