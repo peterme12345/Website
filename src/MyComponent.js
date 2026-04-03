@@ -82,9 +82,7 @@ function MyComponent() {
           <h1 className="title">Peter Nguyen</h1>
           <p className="section__text__p2">Computer Science Major</p>
           <div className="btn-container">
-            <a href="/Resume.pdf" download className="btn btn-color-2">
-              Download Resume
-            </a>
+            
             <a href="/CV.pdf" download className="btn btn-color-2">
               Download CV
             </a>
@@ -126,7 +124,7 @@ function MyComponent() {
               <div className="details-container">
                 <img src={exp} alt="Experience Icon" className="icon" />
                 <h3>Experience</h3>
-                <p>Current: Data Entry Specialist</p>
+                <p>Current: Credit Risk Data Entry Specialist</p>
               </div>
               <div className="details-container">
                 <img src={edu} alt="Education Icon" className="icon" />
@@ -186,6 +184,13 @@ function MyComponent() {
                     <p>Basic</p>
                   </div>
                 </article>
+                <article>
+                  <img src={check} alt="Experience icon" className="icon" />
+                  <div>
+                    <h3>SwiftUI</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
               </div>
             </div>
             <div className="details-container">
@@ -231,20 +236,17 @@ function MyComponent() {
             <div className="details-container">
               <h2 className="experience-sub-title">Work</h2>
               <div className="article container">
-                <h4>Small Business Growth Alliance</h4>
+                <h4>Small Business Growth Alliance<p>Data Specialist</p></h4>
                 <p>Apr. 2025 - Present</p>
-                <h4>Deutsche Bank</h4>
+                <h4>Deutsche Bank<p>Clerk</p></h4>
                 <p>Aug. 2024 - Apr. 2025</p>
-                <h4>Towne Park</h4>
-                <p>May 2024 - Jul. 2024</p>
-                <p>Associate</p>
-                <h4>Summerfield Tea Bar</h4>
+                <h4>Towne Park <p>Associate</p></h4>
+                <p>Spring 2024</p>
+                <h4>Summerfield Tea Bar<p>Barista</p></h4>
                 <p>Aug. 2023 - May 2024</p>
-                <p>Barista</p>
-                <h4>Popeyes</h4>
-                <p>May 2023 - Jul. 2023</p>
-                <p>Cashier</p>
-                <h4>Media Assistant</h4>
+                <h4>Popeyes<p>Cashier</p></h4>
+                <p>Summer 2023</p>
+                <h4>CSULB<p>Media Assistant</p></h4>
                 <p>Sept. 2021 - Jun. 2022</p>
               </div>
             </div>
@@ -262,8 +264,10 @@ function MyComponent() {
         <h1 className="title">Projects</h1>
         <div className="experience-details-container">
           <div className="about-containers">
+{/* 
             <div className="details-container color-container">
-              <div className="article-container">
+
+        <div className="article-container">
                 <img src={card} alt="K Project" className="project-img" />
               </div>
               <h2 className="experience-sub-title project-title">K Project</h2>
@@ -277,8 +281,10 @@ function MyComponent() {
                 >
                   Github
                 </button>
+                  
               </div>
             </div>
+*/}
             <div className="details-container color-container">
               <div className="article-container">
                 <img src={bod} alt="Portfolio" className="project-img" />
