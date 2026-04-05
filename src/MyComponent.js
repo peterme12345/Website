@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css"; // Import CSS file for component styles
 import { toggleMenu } from "./script.js";
-import profileImage from "./assets/IMG_9884.JPG";
+import profileImage from "./assets/IMG_9642.JPG";
 import linkedin from "./assets/linkedin.png";
 import git from "./assets/git.png";
 import pfp from "./assets/pfp.jpeg";
@@ -9,7 +9,7 @@ import exp from "./assets/experience.png";
 import edu from "./assets/education.png";
 import arrow from "./assets/arrow.png";
 import check from "./assets/check.png";
-import card from "./assets/card.png";
+//import card from "./assets/card.png";
 import bod from "./assets/bod.png";
 import mail from "./assets/mail.png";
 
